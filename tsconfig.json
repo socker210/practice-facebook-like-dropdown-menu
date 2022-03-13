@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "typeRoots": ["typings/*", "node_modules/@types"],
+    "baseUrl": "."
+  }
+}
